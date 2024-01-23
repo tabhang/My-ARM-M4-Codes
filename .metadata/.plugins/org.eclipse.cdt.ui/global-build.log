@@ -1,0 +1,150 @@
+
+**** Clean-only build of configuration Debug for project UART(transmitter) ****
+
+"C:\\Program Files\\ti\\ccsv6\\utils\\bin\\gmake" -k clean 
+DEL /F  "UART(transmitter).out"  "UART(transmitter).hex" 
+Could Not Find C:\Users\tejas\workspace_v6\UART(transmitter)\Debug\UART(transmitter).out
+DEL /F "main.pp" "tm4c123gh6pge_startup_ccs.pp" 
+DEL /F "main.obj" "tm4c123gh6pge_startup_ccs.obj" 
+Could Not Find C:\Users\tejas\workspace_v6\UART(transmitter)\Debug\main.obj
+'Finished clean'
+' '
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project UART(transmitter) ****
+
+"C:\\Program Files\\ti\\ccsv6\\utils\\bin\\gmake" -k all 
+'Building file: ../main.c'
+
+**** Build of configuration Debug for project UART(transmitter) ****
+
+!CommandLauncher.error.commandCanceled!
+Error: Program "C:/Program Files/ti/ccsv6/utils/bin/gmake" is not found in PATH
+
+PATH=[C:\Program Files\ti\ccsv6\ccs_base\common\bin;C:\Program Files\ti\ccsv6\ccs_base\common\uscif;C:\Program Files\ti\ccsv6\ccs_base\DebugServer\license;C:/Program Files/ti/ccsv6/eclipse/jre/bin/client;C:/Program Files/ti/ccsv6/eclipse/jre/bin;C:/Program Files/ti/ccsv6/eclipse/jre/lib/i386;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;c:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\WINDOWS\system32\config\systemprofile\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files\Java\jre1.8.0_121\bin;C:\Program Files\Java\jdk1.8.0_121\bin;C:\MinGW\bin;C:\MinGW\msys\1.0\bin;C:\Users\tejas\AppData\Local\Microsoft\WindowsApps;C:\Program Files\ti\ccsv6\eclipse;]
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project UART(transmitter) ****
+
+"C:\\Program Files\\ti\\ccsv6\\utils\\bin\\gmake" -k all 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project UART(transmitter) ****
+
+"C:\\Program Files\\ti\\ccsv6\\utils\\bin\\gmake" -k all 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project UART(transmitter) ****
+
+"C:\\Program Files\\ti\\ccsv6\\utils\\bin\\gmake" -k all 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project UART(transmitter) ****
+
+"C:\\Program Files\\ti\\ccsv6\\utils\\bin\\gmake" -k all 
+'Building file: ../main.c'
+
+**** Build of configuration Debug for project UART(transmitter) ****
+
+!CommandLauncher.error.commandCanceled!
+Error: Program "C:/Program Files/ti/ccsv6/utils/bin/gmake" is not found in PATH
+
+PATH=[C:\Program Files\ti\ccsv6\ccs_base\emulation\analysis\bin\..\..\..\common\bin;C:\Program Files\ti\ccsv6\ccs_base\emulation\analysis\bin\..\..\..\DebugServer\bin;C:\Program Files\ti\ccsv6\ccs_base\emulation\analysis\bin\ofs;C:\Program Files\ti\ccsv6\ccs_base\common\bin;C:\Program Files\ti\ccsv6\ccs_base\common\uscif;C:\Program Files\ti\ccsv6\ccs_base\DebugServer\license;C:/Program Files/ti/ccsv6/eclipse/jre/bin/client;C:/Program Files/ti/ccsv6/eclipse/jre/bin;C:/Program Files/ti/ccsv6/eclipse/jre/lib/i386;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;c:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\WINDOWS\system32\config\systemprofile\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files\Java\jre1.8.0_121\bin;C:\Program Files\Java\jdk1.8.0_121\bin;C:\MinGW\bin;C:\MinGW\msys\1.0\bin;C:\Users\tejas\AppData\Local\Microsoft\WindowsApps;C:\Program Files\ti\ccsv6\eclipse;;C:\Program Files\ti\ccsv6\ccs_base\emulation\analysis\bin\.;C:\Program Files\ti\ccsv6\ccs_base\emulation\analysis\bin\../xmldb/aet_config;C:\Program Files\ti\ccsv6\ccs_base\emulation\analysis\bin\../xmldb/trace_config/setup;C:\Program Files\ti\ccsv6\ccs_base\emulation\analysis\bin\../xmldb/trace_config/devices;C:\Program Files\ti\ccsv6\ccs_base\emulation\analysis\bin\../../../common/bin;C:\Program Files\ti\ccsv6\ccs_base\emulation\analysis\bin\../../../common/uscif;C:\Program Files\ti\ccsv6\ccs_base\emulation\analysis\bin\../../tpi;C:\Program Files\ti\ccsv6\ccs_base\DebugServer\drivers]
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project UART(transmitter) ****
+
+"C:\\Program Files\\ti\\ccsv6\\utils\\bin\\gmake" -k all 
+'Building file: ../main.c'
+'Invoking: ARM Compiler'
+"C:/Program Files/ti/ccsv6/tools/compiler/arm_5.1.6/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 --abi=eabi -me --include_path="C:/Program Files/ti/ccsv6/tools/compiler/arm_5.1.6/include" -g --gcc --define=ccs="ccs" --define=PART_TM4C123GH6PGE --display_error_number --diag_warning=225 --diag_wrap=off --preproc_with_compile --preproc_dependency="main.pp"  "../main.c"
+"../main.c", line 32: warning #112-D: statement is unreachable
+'Finished building: ../main.c'
+' '
+'Building file: ../tm4c123gh6pge_startup_ccs.c'
+
+**** Build of configuration Debug for project UART(transmitter) ****
+
+!CommandLauncher.error.commandCanceled!
+Error: Program "C:/Program Files/ti/ccsv6/utils/bin/gmake" is not found in PATH
+
+PATH=[C:\Program Files\ti\ccsv6\ccs_base\emulation\analysis\bin\..\..\..\common\bin;C:\Program Files\ti\ccsv6\ccs_base\emulation\analysis\bin\..\..\..\DebugServer\bin;C:\Program Files\ti\ccsv6\ccs_base\emulation\analysis\bin\ofs;C:\Program Files\ti\ccsv6\ccs_base\common\bin;C:\Program Files\ti\ccsv6\ccs_base\common\uscif;C:\Program Files\ti\ccsv6\ccs_base\DebugServer\license;C:/Program Files/ti/ccsv6/eclipse/jre/bin/client;C:/Program Files/ti/ccsv6/eclipse/jre/bin;C:/Program Files/ti/ccsv6/eclipse/jre/lib/i386;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;c:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\WINDOWS\system32\config\systemprofile\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files\Java\jre1.8.0_121\bin;C:\Program Files\Java\jdk1.8.0_121\bin;C:\MinGW\bin;C:\MinGW\msys\1.0\bin;C:\Users\tejas\AppData\Local\Microsoft\WindowsApps;C:\Program Files\ti\ccsv6\eclipse;;C:\Program Files\ti\ccsv6\ccs_base\emulation\analysis\bin\.;C:\Program Files\ti\ccsv6\ccs_base\emulation\analysis\bin\../xmldb/aet_config;C:\Program Files\ti\ccsv6\ccs_base\emulation\analysis\bin\../xmldb/trace_config/setup;C:\Program Files\ti\ccsv6\ccs_base\emulation\analysis\bin\../xmldb/trace_config/devices;C:\Program Files\ti\ccsv6\ccs_base\emulation\analysis\bin\../../../common/bin;C:\Program Files\ti\ccsv6\ccs_base\emulation\analysis\bin\../../../common/uscif;C:\Program Files\ti\ccsv6\ccs_base\emulation\analysis\bin\../../tpi;C:\Program Files\ti\ccsv6\ccs_base\DebugServer\drivers]
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project UART(transmitter) ****
+
+"C:\\Program Files\\ti\\ccsv6\\utils\\bin\\gmake" -k all 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project UART(transmitter) ****
+
+"C:\\Program Files\\ti\\ccsv6\\utils\\bin\\gmake" -k all 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project UART(transmitter) ****
+
+"C:\\Program Files\\ti\\ccsv6\\utils\\bin\\gmake" -k all 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project UART(transmitter) ****
+
+"C:\\Program Files\\ti\\ccsv6\\utils\\bin\\gmake" -k all 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project UART(transmitter) ****
+
+"C:\\Program Files\\ti\\ccsv6\\utils\\bin\\gmake" -k all 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project UART(transmitter) ****
+
+"C:\\Program Files\\ti\\ccsv6\\utils\\bin\\gmake" -k all 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project UART(transmitter) ****
+
+"C:\\Program Files\\ti\\ccsv6\\utils\\bin\\gmake" -k all 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project UART(transmitter) ****
+
+"C:\\Program Files\\ti\\ccsv6\\utils\\bin\\gmake" -k all 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project UART(transmitter) ****
+
+"C:\\Program Files\\ti\\ccsv6\\utils\\bin\\gmake" -k all 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project UART(transmitter) ****
+
+"C:\\Program Files\\ti\\ccsv6\\utils\\bin\\gmake" -k all 
+'Building file: ../tm4c123gh6pge_startup_ccs.c'
+'Invoking: ARM Compiler'
+"C:/Program Files/ti/ccsv6/tools/compiler/arm_5.1.6/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 --abi=eabi -me --include_path="C:/Program Files/ti/ccsv6/tools/compiler/arm_5.1.6/include" -g --gcc --define=ccs="ccs" --define=PART_TM4C123GH6PGE --display_error_number --diag_warning=225 --diag_wrap=off --preproc_with_compile --preproc_dependency="tm4c123gh6pge_startup_ccs.pp"  "../tm4c123gh6pge_startup_ccs.c"
+'Finished building: ../tm4c123gh6pge_startup_ccs.c'
+
+**** Build of configuration Debug for project UART(transmitter) ****
+
+!CommandLauncher.error.commandCanceled!
+Error: Program "C:/Program Files/ti/ccsv6/utils/bin/gmake" is not found in PATH
+
+PATH=[C:\Program Files\ti\ccsv6\ccs_base\emulation\analysis\bin\..\..\..\common\bin;C:\Program Files\ti\ccsv6\ccs_base\emulation\analysis\bin\..\..\..\DebugServer\bin;C:\Program Files\ti\ccsv6\ccs_base\emulation\analysis\bin\ofs;C:\Program Files\ti\ccsv6\ccs_base\common\bin;C:\Program Files\ti\ccsv6\ccs_base\common\uscif;C:\Program Files\ti\ccsv6\ccs_base\DebugServer\license;C:/Program Files/ti/ccsv6/eclipse/jre/bin/client;C:/Program Files/ti/ccsv6/eclipse/jre/bin;C:/Program Files/ti/ccsv6/eclipse/jre/lib/i386;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;c:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\WINDOWS\system32\config\systemprofile\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files\Java\jre1.8.0_121\bin;C:\Program Files\Java\jdk1.8.0_121\bin;C:\MinGW\bin;C:\MinGW\msys\1.0\bin;C:\Users\tejas\AppData\Local\Microsoft\WindowsApps;C:\Program Files\ti\ccsv6\eclipse;;C:\Program Files\ti\ccsv6\ccs_base\emulation\analysis\bin\.;C:\Program Files\ti\ccsv6\ccs_base\emulation\analysis\bin\../xmldb/aet_config;C:\Program Files\ti\ccsv6\ccs_base\emulation\analysis\bin\../xmldb/trace_config/setup;C:\Program Files\ti\ccsv6\ccs_base\emulation\analysis\bin\../xmldb/trace_config/devices;C:\Program Files\ti\ccsv6\ccs_base\emulation\analysis\bin\../../../common/bin;C:\Program Files\ti\ccsv6\ccs_base\emulation\analysis\bin\../../../common/uscif;C:\Program Files\ti\ccsv6\ccs_base\emulation\analysis\bin\../../tpi;C:\Program Files\ti\ccsv6\ccs_base\DebugServer\drivers]
+
+**** Build Finished ****

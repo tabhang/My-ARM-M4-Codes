@@ -1,0 +1,179 @@
+******************************************************************************
+                  TI ARM Linker PC v5.1.6                      
+******************************************************************************
+>> Linked Mon Dec 26 00:04:27 2016
+
+OUTPUT FILE NAME:   <encoder_wo_interrupts.out>
+ENTRY POINT SYMBOL: "_c_int00"  address: 00000489
+
+
+MEMORY CONFIGURATION
+
+         name            origin    length      used     unused   attr    fill
+----------------------  --------  ---------  --------  --------  ----  --------
+  FLASH                 00000000   00040000  000005c8  0003fa38  R  X
+  SRAM                  20000000   00008000  0000021c  00007de4  RW X
+
+
+SEGMENT ALLOCATION MAP
+
+run origin  load origin   length   init length attrs members
+----------  ----------- ---------- ----------- ----- -------
+00000000    00000000    000005cc   000005cc    r-x
+  00000000    00000000    0000026c   0000026c    r-- .intvecs
+  0000026c    0000026c    00000338   00000338    r-x .text
+  000005a8    000005a8    00000024   00000024    r-- .cinit
+20000000    20000000    0000021c   00000000    rw-
+  20000000    20000000    00000200   00000000    rw- .stack
+  20000200    20000200    0000001c   00000000    rw- .data
+
+
+SECTION ALLOCATION MAP
+
+ output                                  attributes/
+section   page    origin      length       input sections
+--------  ----  ----------  ----------   ----------------
+.intvecs   0    00000000    0000026c     
+                  00000000    0000026c     tm4c123gh6pge_startup_ccs.obj (.intvecs)
+
+.init_array 
+*          0    00000000    00000000     UNINITIALIZED
+
+.text      0    0000026c    00000338     
+                  0000026c    0000009c     rtsv7M4_T_le_v4SPD16_eabi.lib : memcpy_t2.obj (.text)
+                  00000308    00000094                                   : auto_init.obj (.text)
+                  0000039c    0000008c     main.obj (.text)
+                  00000428    0000005e     rtsv7M4_T_le_v4SPD16_eabi.lib : copy_decompress_rle.obj (.text)
+                  00000486    00000002     --HOLE-- [fill = 0]
+                  00000488    00000048                                   : boot.obj (.text)
+                  000004d0    00000044                                   : cpy_tbl.obj (.text)
+                  00000514    00000044                                   : exit.obj (.text)
+                  00000558    00000018                                   : args_main.obj (.text)
+                  00000570    00000014                                   : _lock.obj (.text)
+                  00000584    0000000e                                   : copy_decompress_none.obj (.text:decompress:none)
+                  00000592    0000000c     tm4c123gh6pge_startup_ccs.obj (.text)
+                  0000059e    00000006     rtsv7M4_T_le_v4SPD16_eabi.lib : copy_decompress_rle.obj (.text:decompress:rle24)
+
+.cinit     0    000005a8    00000024     
+                  000005a8    00000012     (.cinit..data.load) [load image, compression = rle]
+                  000005ba    00000002     --HOLE-- [fill = 0]
+                  000005bc    00000008     (__TI_handler_table)
+                  000005c4    00000008     (__TI_cinit_table)
+
+.stack     0    20000000    00000200     UNINITIALIZED
+                  20000000    00000200     --HOLE--
+
+.data      0    20000200    0000001c     UNINITIALIZED
+                  20000200    00000008     main.obj (.data)
+                  20000208    00000008     rtsv7M4_T_le_v4SPD16_eabi.lib : _lock.obj (.data)
+                  20000210    00000008                                   : exit.obj (.data)
+                  20000218    00000004                                   : stkdepth_vars.obj (.data)
+
+
+LINKER GENERATED COPY TABLES
+
+__TI_cinit_table @ 000005c4 records: 1, size/record: 8, table size: 8
+	.data: load addr=000005a8, load size=00000012 bytes, run addr=20000200, run size=0000001c bytes, compression=rle
+
+
+LINKER GENERATED HANDLER TABLE
+
+__TI_handler_table @ 000005bc records: 2, size/record: 4, table size: 8
+	index: 0, handler: __TI_decompress_rle24
+	index: 1, handler: __TI_decompress_none
+
+
+GLOBAL SYMBOLS: SORTED ALPHABETICALLY BY Name 
+
+address    name
+--------   ----
+00000515   C$$EXIT
+00000593   ResetISR
+UNDEFED    SHT$$INIT_ARRAY$$Base
+UNDEFED    SHT$$INIT_ARRAY$$Limit
+20000200   __STACK_END
+00000200   __STACK_SIZE
+20000200   __STACK_TOP
+000005c4   __TI_CINIT_Base
+000005cc   __TI_CINIT_Limit
+000005bc   __TI_Handler_Table_Base
+000005c4   __TI_Handler_Table_Limit
+00000001   __TI_args_main
+00000309   __TI_auto_init
+20000210   __TI_cleanup_ptr
+00000585   __TI_decompress_none
+0000059f   __TI_decompress_rle24
+20000214   __TI_dtors_ptr
+00000000   __TI_static_base__
+0000026d   __aeabi_memcpy
+0000026d   __aeabi_memcpy4
+0000026d   __aeabi_memcpy8
+ffffffff   __binit__
+ffffffff   __c_args__
+20000000   __stack
+00000559   _args_main
+00000489   _c_int00
+20000208   _lock
+0000057f   _nop
+00000577   _register_lock
+00000571   _register_unlock
+2000020c   _unlock
+00000519   abort
+ffffffff   binit
+000004d1   copy_in
+00000521   exit
+00000000   g_pfnVectors
+20000200   i
+20000204   j
+0000039d   main
+20000218   main_func_sp
+0000026d   memcpy
+
+
+GLOBAL SYMBOLS: SORTED BY Symbol Address 
+
+address    name
+--------   ----
+00000000   __TI_static_base__
+00000000   g_pfnVectors
+00000001   __TI_args_main
+00000200   __STACK_SIZE
+0000026d   __aeabi_memcpy
+0000026d   __aeabi_memcpy4
+0000026d   __aeabi_memcpy8
+0000026d   memcpy
+00000309   __TI_auto_init
+0000039d   main
+00000489   _c_int00
+000004d1   copy_in
+00000515   C$$EXIT
+00000519   abort
+00000521   exit
+00000559   _args_main
+00000571   _register_unlock
+00000577   _register_lock
+0000057f   _nop
+00000585   __TI_decompress_none
+00000593   ResetISR
+0000059f   __TI_decompress_rle24
+000005bc   __TI_Handler_Table_Base
+000005c4   __TI_CINIT_Base
+000005c4   __TI_Handler_Table_Limit
+000005cc   __TI_CINIT_Limit
+20000000   __stack
+20000200   __STACK_END
+20000200   __STACK_TOP
+20000200   i
+20000204   j
+20000208   _lock
+2000020c   _unlock
+20000210   __TI_cleanup_ptr
+20000214   __TI_dtors_ptr
+20000218   main_func_sp
+ffffffff   __binit__
+ffffffff   __c_args__
+ffffffff   binit
+UNDEFED    SHT$$INIT_ARRAY$$Base
+UNDEFED    SHT$$INIT_ARRAY$$Limit
+
+[41 symbols]
